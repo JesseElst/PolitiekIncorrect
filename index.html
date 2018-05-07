@@ -1,11 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Portfolio</title>
-   
-</head>
-<body>
-<p> Hoi</p>
+	<head>
+		<title>Politiek Incorrect</title>
+		<link rel="stylesheet" type="text/css" href="styling/styling.css">
+	</head>
+	<body>
+		<!-- menu -->
+		<div class="menu">
+			<a href='http://i363720.hera.fhict.nl/PolitiekIncorrect/'> <img class="logo" src="styling/images/LogoWit.png"></a>
+			<div class="navigatie">
+				<ul>
+					<li><a class="active" href="http://i363720.hera.fhict.nl/PolitiekIncorrect/">Nieuw</a></li>
+					<li><a href="#news">Populair</a></li>
+					<li>Onderwerp
+						<ul> 
+							<li><a><img class='navCategorie' src='styling/images/topicAlgemeen.png'>Algemeen</a></li>
+							<li><img class='navCategorie' src='styling/images/topicEconomie.png'><a>Economie</a></li>
+							<li><img class='navCategorie' src='styling/images/topicMileu.png'><a>Mileu</a></li>
+							<li><img class='navCategorie' src='styling/images/topicOnderwijs.png'><a>Onderwijs</a></li>
+							<li><img class='navCategorie' src='styling/images/topicBuitenland.png'><a>Buitenland</a></li>
+							<li><img class='navCategorie' src='styling/images/topicMaatschappij.png'><a>Maatschappij</a></li>
+						</ul> 
+					</li>
+					<li><a href="#about">Partijen</a>
+						<ul>
+							<li>VVD</li>
+							<li>PVV</li>
+							<li>CDA</li>
+							<li>Groenlinks</li>
+							<li>D66</li>
+							<li>Andere</li>
+						</ul>
+					</li>
+					<li><a href="#about">Politici</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<!-- video -->
+		<h2 id='subkopVideo'>Laatste video</h2>
+		<iframe id='homepageVideo' src='https://www.youtube.com/embed/fyS9LWBEujo'></iframe>
+		<div id='videoContext'>
+			<h3 id='videoTitel'>President Trump en zijn 'volgers'</h3>
+			<p id='videoTekst'>Tijdens de verkiezing voor president in Amerika 2016, werden er een aantal valse beweringen gedaan over bekende mensen die zogenaamd Donald Trump supporten. Deze beweringen zijn gemaakt op basis van het uit context halen van situaties, en zelfs het zelf bedenken van social media posts in de naam van anderen. Onze video van deze week gaat hier dieper op in.</p>
+			<img id='videoCategorie' src='styling/images/topicBuitenland.png'>
+		</div>
+		
+		<!-- seperationline 1 -->
+		<div id='seperationline1'></div>
+		<div id='seperationline2'></div>
+		<div id='seperationline3'></div>
+		
+		<!-- trending -->
+		<h2 id='subkopTrending'>Trending</h2>
+		<a href='artikelen/artikel1.html'><div id='trending1'>
+			<img class='trendingIMG' src='styling/images/trending1.png'>
+			<p class='trendingQuote'>"Meer dan 66% van de Nederlande bevolking is tevreden met het nieuwe beleid."</p>
+			<p class='trendingPoliticus'>- Geert Wilders</p>
+			<img class='trendingCategorie' src='styling/images/topicMaatschappij.png'>
+		</div></a>
+		<a href='artikelen/artikel2.html'><div id='trending2'>
+			<img class='trendingIMG' src='styling/images/trending2.png'>
+			<p class='trendingQuote'>"Afgelopen jaar zijn de lonen in de bouwindustrie met ongeveer 15% verlaagd."</p>
+			<p class='trendingPoliticus'>- Alexander Pechtold</p>
+			<img class='trendingCategorie' src='styling/images/topicEconomie.png'>
+		</div></a>
+		<a href='artikelen/artikel3.html'><div id='trending3'>
+			<img class='trendingIMG' src='styling/images/trending3.png'>
+			<p class='trendingQuote'>"Middelbare school docenten staan op het punt weer te gaan staken."</p>
+			<p class='trendingPoliticus'>- Jesse Klaver</p>
+			<img class='trendingCategorie' src='styling/images/topicOnderwijs.png'>
+		</div></a>
+		
+		<!-- nieuw -->
+		<h2 id='subkopNieuw'>Nieuw</h2>
+		<div id='nieuwContainerHomepage'>
+			<a href='artikelen/artikel1.html'><div class='nieuwBerichtContainer'>
+				<p class='nieuwQuote'>"Meer dan 66% van de Nederlande bevolking is tevreden met het nieuwe beleid."</p>
+				<p class='nieuwPoliticus'>- Geert Wilders</p>
+				<img class='nieuwCategorieHomepage' src='styling/images/topicMaatschappij.png'>
+			</div></a>
+			<a href='artikelen/artikel4.html'><div class='nieuwBerichtContainer'>
+				<p class='nieuwQuote'>"Uit onderzoek is gebleken dat het mileu erop vooruit gaat."</p>
+				<p class='nieuwPoliticus'>- Mark Rutte</p>
+				<img class='nieuwCategorieHomepage' src='styling/images/topicMileu.png'>
+			</div></a>
+			<a href='artikelen/artikel5.html'><div class='nieuwBerichtContainer'>
+				<p class='nieuwQuote'>"De 'doomsday-klok' slaat 1 minuut voor middernacht."</p>
+				<p class='nieuwPoliticus'>- Jesse Klaver</p>
+				<img class='nieuwCategorieHomepage' src='styling/images/topicBuitenland.png'>
+			</div></a>
+			<a href='artikelen/artikel6.html'><div class='nieuwBerichtContainer'>
+				<p class='nieuwQuote'>"Mark Rutte heeft in 1997 fraude gepleegd bij de belastingsdienst."</p>
+				<p class='nieuwPoliticus'>- Hans van Baalen</p>
+				<img class='nieuwCategorieHomepage' src='styling/images/topicAlgemeen.png'>
+			</div></a>
+		</div>
+		
+		<!-- contact / disclaimer -->
+		<div id='contactContainer'>
+			<h3>Contact:</h3><br>
+			<p>Politiek Incorrect<br>fillerstraat 31<br>0478 123456<br>filler@email.com<br><br><br>
+			<h3>Disclaimer:</h3><br>
+			<p>Politiek Incorrect heeft een neutrale blik op politieke partijen en trekt niemand voor om zo de meest eerlijke service mogelijk aan te bieden</p>
+		</div>
  
-</body>
+	</body>
 </html>
