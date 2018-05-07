@@ -4,23 +4,40 @@ body {
 }
 
 h2 {
-	font-family: Open Sans;
+	font-family: Open Sans, OpenSansR;
 	font-size: 4vh;
 }
 
 h3 {
-	font-family: Open Sans;
+	font-family: Open Sans, OpenSansR;
+	font-size: 3vh;
+	margin: 0;
+}
+
+h4 {
+	font-family: Open Sans, OpenSansR;
 	font-size: 3vh;
 	margin: 0;
 }
 
 p {
-	font-family: Open Sans;
+	font-family: Open Sans, OpenSansR;
 }
 
 a {
 	text-decoration: none;
 	color: black;
+}
+
+/* fonts */
+@font-face {
+    font-family: OpenSansR;
+    src: url(fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: OpenSansB;
+    src: url(fonts/OpenSans-Bold.ttf);
 }
 
 /* menu */ 
@@ -35,7 +52,7 @@ ul li {
 	width: 12vw;
 	font-size: 3vh;
 	color: white;
-	font-family: Open Sans;
+	font-family: Open Sans, OpenSansR;
 	text-align: center;
 	-webkit-user-select: none;  
 	-moz-user-select: none;    
@@ -124,7 +141,7 @@ ul li:hover ul li {
 	position: absolute;
 	top: 18vh;
 	width: 40vw;
-	height: 22.5vw;
+	height: 44vh;
 	left: 3vw;
 }
 
@@ -183,7 +200,16 @@ ul li:hover ul li {
 	left: 66vw;
 	width: 5px;
 	top: 105vh;
-	height: 60vh;
+	height: 120vh;
+	background-color: #333;
+}
+
+#seperationline4 {
+	position: absolute;
+	width: 28vw;
+	right: 2vw;
+	height: 5px;
+	top: 183vh;
 	background-color: #333;
 }
 
@@ -306,10 +332,49 @@ ul li:hover ul li {
 	
 }
 
+/* Hall of Shame */
+#hallTitel {
+	position: absolute;
+	margin: 0;
+	top: 105vh;
+	left: 69vw;
+}
+
+#hallContainer1 {
+	position: absolute;
+	top: 110vh;
+	left: 69vw;
+	width: 28vw;
+	background-color: #ededed;
+}
+
+#hallContainer2 {
+	position: absolute;
+	top: 145vh;
+	left: 69vw;
+	width: 28vw;
+	background-color: #ededed;
+}
+
+#hallContainer3 {
+	position: absolute;
+	top: 163vh;
+	left: 69vw;
+	width: 28vw;
+	background-color: #ededed;
+}
+
+.hallPoliticus {
+	position: absolute;
+	font-size: 3vh;
+	left: 14.5vw;
+	top: 0;
+}
+
 /* contact / Disclaimer */
 #contactContainer {
 	position: absolute;
-	top: 126vh;
+	top: 185vh;
 	left: 69vw;
 	width: 25vw;
 	height: 45vh;
